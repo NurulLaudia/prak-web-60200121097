@@ -8,5 +8,9 @@ class MahasiswaController extends \yii\web\Controller
     {
         return $this->render('profil');
     }
+    public function actionDetailMahasiswa($nim)
+    {
+        return $this->render('detail-mahasiswa');
+    }
 
 }
